@@ -24,7 +24,7 @@ function randomDate(start: Date, end: Date): string {   // genera una fecha alea
         await page.locator("//button[contains(text(),'Guardar')]").click();
     }
 
-    await page.pause()
+   // await page.pause()
 
 
 });
