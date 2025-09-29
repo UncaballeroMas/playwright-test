@@ -32,7 +32,7 @@ test('buying new products', async({page}) => {
 
     await expect (page.locator("//h4[contains(.,'Tu compra fue exitosa')]")).toBeVisible() // verifica que el mensaje de compra exitosa sea visible
 
-    await page.pause()
+   // await page.pause()
 
 
 
